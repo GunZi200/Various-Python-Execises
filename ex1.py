@@ -1,4 +1,4 @@
-#ÆFING: Búa til föll sem breyta int í str og str í int.
+#OBJECTIVE: Create function which converts int to str and str to int.
 
 # turns string into an integer.
 def to_int(x): 
@@ -11,7 +11,7 @@ def to_string(x):
 myInt = type(to_int("8"))
 myString = type(to_string(8))
 
-#þrjár leiðir til að prenta út.
+#þrjár leiðir til að prenta út. three ways to print the results.
 print("to_int: {}".format(myInt))
 print("to_string: {}".format(myString))
 
